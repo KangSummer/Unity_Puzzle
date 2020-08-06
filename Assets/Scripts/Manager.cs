@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tile : MonoBehaviour
+public class Manager : MonoBehaviour
 {
-    public int m_ID;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +14,5 @@ public class Tile : MonoBehaviour
     void Update()
     {
         
-    }
-    void OnMouseDown()
-    {
-        Debug.Log("OnMouseDown() 호출");
     }
 }
