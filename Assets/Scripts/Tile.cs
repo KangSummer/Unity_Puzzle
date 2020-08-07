@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// 1. 클릭시 사운드
+/// 2. 
+/// </summary>
+
 public class Tile : MonoBehaviour
 {
     public int m_ID;
@@ -19,6 +24,6 @@ public class Tile : MonoBehaviour
     }
     void OnMouseDown()
     {
-        Debug.Log("OnMouseDown() 호출");
+
     }
 }

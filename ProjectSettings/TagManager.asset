@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Timer
+  - ShapesManager
+  - Token
+  - Cell
+  - Level
+  - LoadingScreen
+  - Bonus
+  - Aims
+  - Boosters
+  - Locations
+  - Levels
   layers:
   - Default
   - TransparentFX
@@ -13,11 +24,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background Image
+  - Empty Space
+  - Token
+  - Animation
+  - Level
   - 
   - 
   - 
@@ -40,4 +51,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 190373667
+    locked: 0
+  - name: Base
+    uniqueID: 2951297659
+    locked: 0
+  - name: Tokens
+    uniqueID: 712495007
+    locked: 0
+  - name: Attachments
+    uniqueID: 763235625
+    locked: 0
+  - name: UI
+    uniqueID: 2679287671
     locked: 0
