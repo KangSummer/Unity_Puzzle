@@ -14,16 +14,25 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
-
+    public static Manager Instance;
     // Start is called before the first frame update
+    public GameObject m_BG;
+    public int m_BGScaleX;
+    public int m_BGScaleY;
+
+    private GameObject m_PrivateBG;
     void Start()
     {
-        
+        Instance = GetComponent<Manager>();
+
+        m_PrivateBG = m_BG;
+        m_PrivateBG.transform.localScale = new Vector3(m_BGScaleX, m_BGScaleY, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        m_PrivateBG.transform.localScale.Set(m_BGScaleX, m_BGScaleY, 0);
+
     }
 }

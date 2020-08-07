@@ -91,4 +91,8 @@ public class BoardManager : MonoBehaviour
     void Update()
     {
     }
+
+    private void OnMouseDown()
+    {
+    }
 }
